@@ -1,0 +1,1 @@
+{"uuid":"6ed59030-f906-4578-8682-9ff403c0b81b","name":"test.CT0001","start":1600710954048,"stop":1600710954438,"children":["b20b8a3f-cc67-4b39-a8af-e6c6f1c5899b"],"befores":[{"name":"criarCasoTeste","status":"broken","stage":"finished","description":"","start":1600710954110,"stop":1600710954116}]}
