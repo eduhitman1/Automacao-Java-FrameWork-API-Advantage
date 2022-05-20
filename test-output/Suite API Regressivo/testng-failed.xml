@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite API Regressivo]">
+  <test thread-count="5" name="API Next 001(failed)">
+    <parameter name="basePath" value="users/1"/>
+    <parameter name="baseURI" value="https://restapi.wcaquino.me/"/>
+    <classes>
+      <class name="test.CT0001">
+        <methods>
+          <include name="deveValidataBody"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.CT0001 -->
+    </classes>
+  </test> <!-- API Next 001(failed) -->
+</suite> <!-- Failed suite [Suite API Regressivo] -->
