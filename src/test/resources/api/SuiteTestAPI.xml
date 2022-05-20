@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite API Regressivo" >
+<!--     <listeners> -->
+<!-- 		<listener -->
+<!-- 			class-name="com.edsoft.framework.listeners.mobile.ListenerTestMobile"></listener> -->
+<!-- 	</listeners> -->
+
+    <!-- Para cada device em paralelo deve ser criado um snippet de configuracao das capabilities abaixo -->
+
+<!--     <test name="iOS Next 001"> -->
+<!--         <parameter name="plataforma" value="ios"/> -->
+<!--         <parameter name="udid" value="70a428ea426770967dabf184e25e1b9728e06676"/> -->
+<!--         <parameter name="platformName" value="iOS"/> -->
+<!--         <parameter name="deviceName" value="iPhone 7 Plus"/> -->
+<!--         <parameter name="appPackage" value="br.com.bradesco.next"/> -->
+<!--         <parameter name="appActivity" value="br.com.next.ui.activity.SplashActivity_"/> -->
+<!--         <parameter name="systemPort" value="8230"/> -->
+<!--         <parameter name="app" value=""/> -->
+<!--         <classes> -->
+<!--             <class name="com.next.automacao.teste.login.CTLoginTest"></class> -->
+<!--         </classes> -->
+<!--     </test> -->
+
+    <test name="API Next 001">
+<!--         <parameter name="udid" value="F5AZFG23P030"/> -->
+        <parameter name="baseURI" value="https://restapi.wcaquino.me/"/>
+        <parameter name="basePath" value="users/1"/>
+        
+        <classes>
+            <class name="test.CT0001"></class>
+        </classes>
+    </test>
+</suite>
